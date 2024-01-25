@@ -15,5 +15,6 @@ class EvenorOdd
 		int n=in.nextInt();
 		EvenorOdd obj=new EvenorOdd();
 		obj.print(n);
+		in.close();
 	}
 }

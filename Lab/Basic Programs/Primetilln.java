@@ -31,5 +31,6 @@ class Primetilln
 		int n=in.nextInt();
 		Primetilln obj=new Primetilln();
 		obj.printPrime(n);
+		in.close();
 	}
 }

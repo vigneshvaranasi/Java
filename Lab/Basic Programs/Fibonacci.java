@@ -9,7 +9,6 @@ class Fibonacci
 		{
 			System.out.print(a+" ");
 			System.out.print(b+" ");
-			int temp=a;
 			a=a+b;
 			b=a+b;			
 			n=n-2;
@@ -26,5 +25,6 @@ class Fibonacci
 		int n=in.nextInt();
 		Fibonacci obj=new Fibonacci();
 		obj.print(n);
+		in.close();
 	}
 }

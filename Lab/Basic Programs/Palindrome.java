@@ -23,5 +23,6 @@ class Palindrome
 		int n=in.nextInt();
 		Palindrome obj=new Palindrome();
 		obj.print(n);
+		in.close();
 	}
 }

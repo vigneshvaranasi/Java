@@ -3,9 +3,7 @@ class Amstrong
 {
 	void print(int n)
 	{	
-		int org=n;
-		int pow=n%10;
-		int sum=0;
+		int org=n,sum=0,pow=n%10;
 		while(n>0)
 		{	
 			int rem=n%10;
@@ -29,5 +27,6 @@ class Amstrong
 		int n=in.nextInt();
 		Amstrong obj=new Amstrong();
 		obj.print(n);
+		in.close();
 	}
 }

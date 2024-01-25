@@ -21,5 +21,6 @@ class Prime
 		int n=in.nextInt();
 		Prime obj=new Prime();
 		obj.primeOrNot(n);
+		in.close();
 	}
 }
