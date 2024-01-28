@@ -1,7 +1,7 @@
 import java.util.Scanner;
 class Amstrong
 {
-	void print(int n)
+	void amstr(int n)
 	{	
 		int org=n,sum=0,pow=n%10;
 		while(n>0)
@@ -26,7 +26,7 @@ class Amstrong
 		System.out.println("Enter a Number to Check if it is Amstrong or not:");
 		int n=in.nextInt();
 		Amstrong obj=new Amstrong();
-		obj.print(n);
+		obj.amstr(n);
 		in.close();
 	}
 }
