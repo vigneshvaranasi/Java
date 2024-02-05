@@ -24,3 +24,9 @@
 1. [First and last Ocurrence of a letter in string]()
 1. [Get character form a string using index]()
 
+**To Do:**
+- [x] Complete Stings
+- [ ] Add Additional Programs in strings
+- [ ] Start Inheritance
+
+
