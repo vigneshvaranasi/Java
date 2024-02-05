@@ -1,3 +1,6 @@
+
+/* 1.Write a program to print a string entered by user. */
+
 import java.util.Scanner;
 
 public class inputOutput {

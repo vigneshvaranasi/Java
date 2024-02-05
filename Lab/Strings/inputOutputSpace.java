@@ -1,3 +1,6 @@
+
+/* 2.Write a program to input and display the sentence I love candies. */
+
 import java.util.Scanner;
 
 public class inputOutputSpace {

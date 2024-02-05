@@ -1,3 +1,6 @@
+
+/* 3.Write a program to find the length of the string "refrigerator". */
+
 import java.util.Scanner;
 
 public class Length {
