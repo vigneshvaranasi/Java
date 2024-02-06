@@ -28,7 +28,7 @@
 - [x] Complete Stings
 - [x] Complete Stings README
 - [ ] Add Additional Programs in strings
-- [ ] Start Inheritance
+- [x] Finish Inheritance
 - [ ] Modify Basic Programs (Class Names and Methods)
 - [ ] Add Inheritance in README.md
 
