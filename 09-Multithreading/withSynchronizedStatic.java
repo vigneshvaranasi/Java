@@ -1,5 +1,5 @@
 class sample{
-    synchronized public void display(){
+    synchronized static public void display(){
         for(int i=0;i<5;i++)
         {
             System.out.println("Thread - "+Thread.currentThread().getId());
