@@ -1,7 +1,7 @@
 interface in{
     public void add(int a,int b);
 }
-class interfacedemo{
+class interfacedemo implements in{
     public void add(int a,int b)
     {
         System.out.println("The Sum is:"+a+b);

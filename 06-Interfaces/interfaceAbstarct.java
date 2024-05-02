@@ -1,7 +1,7 @@
 
 interface in{
-    public void fun1();
-    public void fun2();
+    void fun1();
+    void fun2();
 }
 abstract class sample implements in{
     public void fun1(){
