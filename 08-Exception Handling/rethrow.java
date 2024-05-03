@@ -11,7 +11,7 @@ class throwDemo{
     }
 }
 
-public class throw2 {
+public class rethrow {
     public static void main(String[] args) {
         try{
             throwDemo obj=new throwDemo();

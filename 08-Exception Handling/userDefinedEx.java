@@ -1,7 +1,7 @@
 
 class ownEx extends Exception{
     public ownEx(String s){
-        super(s);
+        System.out.println(s);
     }
 }
 
@@ -11,7 +11,7 @@ public class userDefinedEx {
             throw new ownEx("This is a custom exception");
         } 
         catch (ownEx ex){
-            System.out.println("Caught an OwnException: " + ex.getMessage());
+            System.out.println("Caught an OwnException: " + ex);
         }
     }
 }
