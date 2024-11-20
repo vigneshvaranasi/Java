@@ -35,6 +35,8 @@ public class ArrayListExample {
 
         // Convert to array
         String[] fruitArray = fruits.toArray(new String[0]);
-        System.out.println("Array: " + String.join(", ", fruitArray)); // Output: Apple, Blueberry
+        for(int i=0; i<fruitArray.length; i++) {
+            System.out.println(fruitArray[i]);
+        }
     }
 }
